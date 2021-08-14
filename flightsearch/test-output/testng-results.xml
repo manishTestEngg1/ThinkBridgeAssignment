@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="31894" started-at="2021-08-14T21:27:36Z" finished-at="2021-08-14T21:28:08Z">
+    <groups>
+    </groups>
+    <test name="Validate Country DropDown Options" duration-ms="31894" started-at="2021-08-14T21:27:36Z" finished-at="2021-08-14T21:28:08Z">
+      <class name="flightsearch.testcases.ValidateSignOffDropdownTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:flightsearch.testcases.ValidateSignOffDropdownTest@7d68ef40]" name="setUp" is-config="true" duration-ms="17331" started-at="2021-08-14T21:27:36Z" finished-at="2021-08-14T21:27:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testEnglishDropdown()[pri:1, instance:flightsearch.testcases.ValidateSignOffDropdownTest@7d68ef40]" name="testEnglishDropdown" duration-ms="436" started-at="2021-08-14T21:27:53Z" finished-at="2021-08-14T21:27:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEnglishDropdown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:flightsearch.testcases.ValidateSignOffDropdownTest@7d68ef40]" name="setUp" is-config="true" duration-ms="13526" started-at="2021-08-14T21:27:54Z" finished-at="2021-08-14T21:28:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testDutchDropdown()[pri:2, instance:flightsearch.testcases.ValidateSignOffDropdownTest@7d68ef40]" name="testDutchDropdown" duration-ms="546" started-at="2021-08-14T21:28:07Z" finished-at="2021-08-14T21:28:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDutchDropdown -->
+      </class> <!-- flightsearch.testcases.ValidateSignOffDropdownTest -->
+    </test> <!-- Validate Country DropDown Options -->
+  </suite> <!-- Suite -->
+</testng-results>

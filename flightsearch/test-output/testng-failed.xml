@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Validate Country DropDown Options(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="flightsearch.testcases.ValidateSignOffDropdownTest">
+        <methods>
+          <include name="testDutchDropdown"/>
+          <include name="testEnglishDropdown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- flightsearch.testcases.ValidateSignOffDropdownTest -->
+    </classes>
+  </test> <!-- Validate Country DropDown Options(failed) -->
+</suite> <!-- Failed suite [Suite] -->
